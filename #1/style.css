@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  height:100%;
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+}
+
+.container {
+  height:100vh;
+  background: linear-gradient(#292929, transparent 99%),
+  #000000     url("http://res.cloudinary.com/dsrdfj4wi/image/upload/v1513285818/desk_sntexk.jpg") no-repeat center;
+  background-size: cover;
+}
+
+nav {
+  margin-left: 750px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 25px;
+  padding-top: 15px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 250px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-top:20px;
+  padding-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  border-bottom: 2px solid RGB(69, 156, 199);
+}
+
+.button {
+  color: white;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-right: 10px;
+  }
+
+.left {
+  background-color: transparent;
+  border: solid 2px #fff;
+}
+
+.right {
+  background-color: RGB(69, 156, 199);
+  border: none;
+}
+
+.center-btn {
+  text-align: center;
+}
