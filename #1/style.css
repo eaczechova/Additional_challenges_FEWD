@@ -1,3 +1,4 @@
+/*to remove margin around content*/
 * {
   box-sizing: border-box;
   margin:0;
@@ -10,10 +11,11 @@ body {
   color: #FFF;
 }
 
+/*container takes full view port height*/
 .container {
   height:100vh;
   background: linear-gradient(#292929, transparent 99%),
-  #000000     url("http://res.cloudinary.com/dsrdfj4wi/image/upload/v1513285818/desk_sntexk.jpg") no-repeat center;
+  #000000 url("http://res.cloudinary.com/dsrdfj4wi/image/upload/v1513285818/desk_sntexk.jpg") no-repeat center;
   background-size: cover;
 }
 
